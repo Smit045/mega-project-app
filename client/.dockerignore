@@ -1,0 +1,17 @@
+# Ignore sensitive files
+.env
+.aws
+.ssh
+*.pem
+*.key
+
+# Ignore local dev files
+node_modules
+npm-debug.log
+.git
+.gitignore
+
+# Ignore Docker/Jenkins files
+Dockerfile
+.dockerignore
+jenkins/
